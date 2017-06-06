@@ -1,0 +1,15 @@
+script(src='../js/common/unslider-min.js')
+.banner
+    .global_w.pr
+        .banner_box_r.bc_black.tc.white
+            p.fs18.mt40 走进医鑫
+            p.fs16.mt20 健康触手可及
+            a.btn-max.btn_orange.mt30 立即注册
+            p.mt30.fs14
+                span.blue.mr10 已有账号？
+                a.white(href="#") 立即登录
+    ul
+        - var banner = json["banner"]
+        each key in banner
+                li(style="background: url(#{key.url}) no-repeat center top;")
+                    a(href="#", target="_blank")

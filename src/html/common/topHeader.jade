@@ -1,0 +1,62 @@
+.topbar
+    .global_w.pr
+        ul.fl
+            li
+                img(src='../images/tel.png')
+            li
+                span.orange.fs16 400-0000-000
+            li  您现在的位置：
+            li
+                span.orange.mr5 长沙
+                a(href="javascript:city_select()") 切换
+                // /*选择城市 start 2017/2/8*/
+                .city-picker-dropdown(style="width: 500px; display: none;")
+                    .city-select-wrap
+                        .city-select-tab
+                            a.active(data-count="province") 省份
+                            a(data-count="city") 城市
+                        .city-select-content
+                            .city-select.province(data-count="province", style="display: block;")
+                                dl.clearfix
+                                    dd
+                                        - var count = 0;
+                                            each val, index in json2
+                                                -count++
+                                                    each data in val
+                                                        a(title=data.province , data-code=data.dataCode) #{data.province}
+                            .city-select.city(data-count="city", style="display: none;")
+                                dl.clearfix
+                                    dd
+                                        //- var cont = 0;
+                                        //    each val, index in json2
+                                        //        -count++
+                                        //        each data in val
+                                        //             a.active(title=data.city , data-code=data.city[j].dataCode) 长沙市
+                                        -var hn = json2["湖南省"]
+                                        -var cities = hn[0].city;
+                                        each key in cities
+                                             a(title= "", data-code="") #{key.name}
+        ul.fr
+            li
+                p.ok_login
+                    | 欢迎您：
+                    // 点击姓名跳转到个人中心页面
+                    a.red(href="#", target="_blank", title="个人中心") 张三
+                    | ，登录医鑫E平台
+            li
+                p.hidden.not_login 医+E平台欢迎您，
+            li
+                a.hidden.not_login(href="login.html") 请登录
+            li
+                p.hidden.not_login
+                    | 【
+                    a.orange(href="register.html") 免费注册
+                    | 】
+            li
+                a(href="#", target="_blank")
+                    i.ico51
+            li
+                a.ok_login(href="login.html")
+                    i.ico53
+                    span 退出
+        .clear

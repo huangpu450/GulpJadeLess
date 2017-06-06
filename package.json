@@ -1,0 +1,57 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "������ package.json                 \r ������ README.md                    \r ������ gulpfile.js                  // gulp �����ļ�\r ������ webpack.config.js            // webpack �����ļ�\r ������ doc                          // doc  Ŀ¼������Ӧ���ĵ�\r ������ test                         // test Ŀ¼�������ļ�\r ������ dist                         // dist Ŀ¼�����ÿ���ʱ������ʱ�����ļ�\r ������ bin                          // bin  Ŀ¼������ prodcution �����ļ�\r ������ mocks                        // ���� mock ����  \r ������ src                          // Դ�ļ�Ŀ¼\r ��   ������ html                     // html Ŀ¼ \r ��   ��   ������ index.html\r ��   ��   ������ page2.html\r ��   ������ js                       // js Ŀ¼ \r ��   ��   ������ common               // ����ҳ���Ĺ������򣬿��ܰ�����������������������\r ��   ��   ������ home                 // home ҳ�� js Ŀ¼\r ��   ��   ��   ������ components\r ��   ��   ��   ��   ������ App.js\r ��   ��   ��   ������ index.js         // ÿ��ҳ������һ�����ڣ�ͳһΪ index.js\r ��   ��   ������ page2                // page2 ҳ�� js Ŀ¼\r ��   ��   ��   ������ components\r ��   ��   ��   ��   ������ App.js\r ��   ��   ��   ������ index.js\r ��   ������ style                    // style Ŀ¼\r ��       ������ common               // ������ʽ����\r ��       ��   ������ varables.less    // ������������\r ��       ��   ������ index.less       // ������ʽ����\r ��       ������ home                 // home ҳ����ʽĿ¼    \r ��       ��   ������ components       // home ҳ��������ʽĿ¼\r ��       ��   ��   ������ App.less \r ��       ��   ������ index.less       // home ҳ����ʽ����\r ��       ������ page2                // page2 ҳ����ʽĿ¼\r ��       ��   ������ components       \r ��       ��   ��   ������ App.less\r ��       ��   ������ index.less       \r ������ vendor\r ��   ������ bootstrap\r ������ ������ jquery",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bulid": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean": "^4.0.2",
+    "cnpm": "^4.5.0",
+    "connect-rest": "^1.9.5",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-react": "^7.0.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-asset-rev": "0.0.15",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-data": "^1.2.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-remember": "^0.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylelint": "^3.9.0",
+    "gulp-util": "^3.0.8",
+    "gulp.spritesmith": "^6.5.0",
+    "mock": "^0.1.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "server": "^1.0.0-alpha.41",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}

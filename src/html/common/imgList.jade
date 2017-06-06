@@ -1,0 +1,56 @@
+ul
+    - var doctorList = json["fd_box"]
+    each key in doctorList
+        li
+            .fd_box
+                .fd_cover.hidden
+                    .bc_black
+                    a.white(href="#")
+                        .fd_c_txt
+                            | 已帮助用户:
+                            br
+                            span.ml20.orange.fs24 #{key.time}
+                            |  次
+                            br
+                            |  医龄:
+                            span.green.fs18 #{key.age}
+                            |  年
+                            br
+                            br
+                            p
+                                | 医学擅长：#{key.resume}
+                            .btn_blue 查看详情
+                .fd_box_tit
+                    .bc_white
+                    .fd_b_txt
+                        p
+                            span.blue.fs14.lh24.mr5 #{key.name}
+                            | #{key.call}
+                        .plan_l
+                            // img的width：80%,请程序通过还能签约人数的百分比赋值
+                            img(style="width: 80%;", src="#{key.url}")
+                        p.gray
+                            | 已签约
+                            span.green #{key.singNum}
+                            | 人/还能签约
+                            span.orange #{key.unSingNum}
+                            | 人
+                        p.gray
+                            span.orange 3.8
+                            | 分
+                            i.ico33
+                            i.ico33
+                            i.ico33
+                            i.ico33
+                            i.ico34
+                img(src="../images/pic/pic1_1.jpg")
+            .fd_btm
+                i.vip-1
+                i.ico41
+                i.ico42
+                i.ico43
+                i.ico44
+                i.ico45
+                i.ico46
+
+

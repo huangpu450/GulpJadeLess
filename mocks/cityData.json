@@ -1,0 +1,101 @@
+{
+  "湖南省":[
+    {
+      "province":"湖南省",
+      "dataCode":"430000",
+      "city":[
+        {"name":"长沙市", "dataCode":"430100" },
+        {"name":"株洲市", "dataCode":"430200" },
+        {"name":"湘潭市", "dataCode":"430300" },
+        {"name":"衡阳市", "dataCode":"430400" },
+        {"name":"邵阳市", "dataCode":"430500" },
+        {"name":"岳阳市", "dataCode":"430600" },
+        {"name":"常德市", "dataCode":"430700" },
+        {"name":"张家界市", "dataCode":"430800" },
+        {"name":"益阳市", "dataCode":"430900" },
+        {"name":"郴州市", "dataCode":"431000" },
+        {"name":"永州市", "dataCode":"431100" },
+        {"name":"怀化市", "dataCode":"431200" },
+        {"name":"娄底市", "dataCode":"431300" },
+        {"name":"湘西土家族苗族自治州", "dataCode":"433100" }
+      ]
+    }
+  ],
+  "安徽省":[
+    {
+      "province":"安徽省",
+      "dataCode":"340000",
+      "city":""
+    }
+  ],
+  "北京市":[
+    {
+      "province":"北京市",
+      "dataCode":"110000",
+      "city":""
+    }
+  ],
+  "重庆市":[
+    {
+      "province":"重庆市",
+      "dataCode":"500000",
+      "city":""
+    }
+  ],
+  "福建省":[
+    {
+      "province":"福建省",
+      "dataCode":"350000",
+      "city":""
+    }
+  ],
+  "甘肃省":[
+    {
+      "province":"甘肃省",
+      "dataCode":"620000",
+      "city":""
+    }
+  ],
+  "广东省":[
+    {
+      "province":"广东省",
+      "dataCode":"440000",
+      "city":""
+    }
+  ],
+  "广西壮族自治区":[
+    {
+      "province":"广西壮族自治区",
+      "dataCode":"450000",
+      "city":""
+    }
+  ],
+  "贵州省":[
+    {
+      "province":"贵州省",
+      "dataCode":"520000",
+      "city":""
+    }
+  ],
+  "海南省":[
+    {
+      "province":"海南省",
+      "dataCode":"460000",
+      "city":""
+    }
+  ],
+  "河北省":[
+    {
+      "province":"河北省",
+      "dataCode":"130000",
+      "city":""
+    }
+  ],
+  "黑龙江省":[
+    {
+      "province":"黑龙江省",
+      "dataCode":"230000",
+      "city":""
+    }
+  ]
+}

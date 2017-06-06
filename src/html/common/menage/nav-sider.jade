@@ -1,0 +1,9 @@
+.side-nav
+    .sideHeader
+        img(src="../images/manhelth/manhelth-navSide-header.png")
+    .siderContant
+        - var navSider = json["navSider"]
+        each key in navSider
+            .nav-imgHeader
+                img(src="../images/manhelth/manhelth-navSider-bgHeader.png")
+            a(href="#{key.url}") #{key.text}
